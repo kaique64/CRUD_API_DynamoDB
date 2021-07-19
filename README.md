@@ -1,5 +1,5 @@
 # CRUD_API_DynamoDB
-CRUD API utilizando NodeJS com TypeScript e banco de dados DynamoDB da AWS
+API que realiza as operações de Criar (Create), Ler (Read), Atualizar (Update), Deletar (Delete) os dados.
 
 <h1> Tecnologias utilizadas </h1>
 
