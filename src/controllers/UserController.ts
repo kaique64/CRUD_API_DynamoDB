@@ -53,6 +53,7 @@ class UserController {
                 if (!data.Item) {
                     return res.status(400).json('Usuário inexistente!');
                 } else {
+                    delete data.Item.user_id;
                     return res.status(200).json(data);
                 }
             }
